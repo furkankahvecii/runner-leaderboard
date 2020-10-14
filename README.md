@@ -69,6 +69,13 @@ Inside front, there is client directory. All the frontend code (react, css and a
 
 Nodemon is a utility that will monitor for any changes in the server source code and it automatically restart the server. This is used in development only.
 
+### Mocha
+
+Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun.
+
+```javascript
+npm test
+```
 ### Express
 
 Express is a web application framework for Node.js. It is used to build our backend API's.
@@ -92,4 +99,4 @@ app.use(cors())
 app.listen(4000 , () => console.log("Server started"))
 ```
 
-This starts a server and listens on port 400 for connections.
+This starts a server and listens on port 4000 for connections.
