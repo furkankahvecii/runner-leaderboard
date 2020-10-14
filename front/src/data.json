@@ -1,0 +1,26 @@
+[
+    {
+        "userid": "1",
+        "username": "user1",
+        "age": "24",
+        "total_time": "25",
+        "distance": "2500",
+        "average_pace": "0.5"
+    },
+    {
+        "userid": "2",
+        "username": "user1",
+        "age": "24",
+        "total_time": "45",
+        "distance": "5000",
+        "average_pace": "0.9"
+    },
+    {
+        "userid": "3",
+        "username": "user1",
+        "age": "24",
+        "total_time": "10",
+        "distance": "7500",
+        "average_pace": "0.2"
+    }
+]
