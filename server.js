@@ -12,6 +12,20 @@ app.use(express.json());
 
 app.use(cors())
 
+
+/*
+You can try this request by downloading the VScode Rest api extension.
+
+    POST http://localhost:4000/csvFileData
+    Content-Type: application/json
+
+    {
+        "fileNames" : ["users.csv", "pace.csv"],
+        "token" : "d174ee88-0cf3-41d2-b18f-1fd5f0b37919"
+    }
+
+*/
+
 // csvFileData route takes post data(fileNames, token) and returns the contents of the files
 app.post("/csvFileData", async (req,res) => {
     const {fileNames, token} = req.body
