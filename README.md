@@ -92,4 +92,4 @@ app.use(cors())
 app.listen(4000 , () => console.log("Server started"))
 ```
 
-This starts a server and listens on port 400 for connections.
+This starts a server and listens on port 4000 for connections.
